@@ -80,3 +80,73 @@ arithmetic and logical operations together with multiplication support.
                     ┌────┴────┐
                     ▼         ▼
                    LEDs      LCD
+
+```
+
+---
+
+## 📊 Key Results
+
+| Metric | Result |
+|---|---:|
+| Target Frequency | 100 MHz |
+| WNS | +0.741 ns |
+| WHS | +0.148 ns |
+| TNS | 0 ns |
+| LUT Utilization | 3.60% |
+| Flip-Flop Utilization | 1.57% |
+| DSP48E1 Utilization | 10.00% |
+| BRAM Utilization | 1.48% |
+| Total Power | 0.071 W |
+
+Detailed results are available in the [Reports](./Reports/) directory.
+
+---
+
+## 🧪 Hardware Validation
+
+The design was programmed onto the target FPGA and validated using the
+on-board LED and 16×2 LCD interfaces.
+
+[FPGA Hardware Output](Results/FPGA_output.jpg)
+
+
+
+## Reports
+
+Detailed implementation results are available in the [`Reports`](./Reports/) directory:
+
+- [Resource Utilization](./Reports/resource_utilization.md)
+- [Timing Analysis](./Reports/timing.md)
+- [Power Analysis](./Reports/power.md)
+
+---
+
+## 📁 Repository Structure
+
+```text
+RV-MAC-FPGA/
+├── RTL/
+├── Simulation/
+├── Constraints/
+├── Reports/
+└── Results/
+```
+
+
+---
+
+## 🛠️ Tools
+
+- Verilog HDL
+- Xilinx Vivado
+- XSim
+- Xilinx Artix-7 FPGA
+
+---
+
+## 👤 Author
+
+**Vivek Raju Kosigi**
+
+VLSI | ASIC Physical Design | FPGA | Digital Design
