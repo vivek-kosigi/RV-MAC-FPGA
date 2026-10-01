@@ -145,6 +145,16 @@ RV-MAC-FPGA/
 
 ---
 
+## 📄 Publication
+
+This project is documented in the following IEEE publication:
+
+**Design & FPGA Implementation of 32-bit RISC-V Processor with MAC & Perceptron Accelerators**
+
+[View on IEEE Xplore](https://ieeexplore.ieee.org/document/11656582)
+
+---
+
 ## 👤 Author
 
 **Vivek Raju Kosigi**
